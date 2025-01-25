@@ -1,8 +1,28 @@
+@media(max-width: 576px) {
+  h1.mobile-size {
+    font-size: 70px;
+  }
+
+  h2.mobile-size {
+    font-size: 35px;
+  }
+
+  a.mobile-size {
+    font-size: 20px;
+  }
+
+  body {
+    text-align: center;
+  }
+
+}
+
 :root {
     --primary-color: #6c63ff;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
+
   
   body {
     margin-top: 100px;
